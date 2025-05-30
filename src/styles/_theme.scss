@@ -10,6 +10,10 @@ body {
   border: var(--border);
 }
 
+.radius {
+  border-radius: var(--radius);
+}
+
 .active-item {
   background-color: var(--light);
   color: white;
@@ -36,10 +40,6 @@ body {
 
 .btn-primary:hover {
   background-color: var(--dark);
-}
-
-.radius {
-  border-radius: var(--radius);
 }
 
 input {
