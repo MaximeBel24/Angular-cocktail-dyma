@@ -1,5 +1,6 @@
 export interface Cocktail {
-    imageUrl: string;
-    name: string;
-    description: string;
+  imageUrl: string;
+  name: string;
+  description: string;
+  ingredients: string[];
 }
