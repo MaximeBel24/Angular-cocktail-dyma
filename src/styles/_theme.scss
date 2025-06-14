@@ -16,7 +16,7 @@ body {
 
 .active-item {
   background-color: var(--light);
-  color: white;
+  color: var(--primary);
   border-radius: var(--radius);
 }
 
@@ -34,6 +34,17 @@ body {
 }
 
 .btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-outline-primary {
+  color: var(--primary);
+  background-color: white;
+  border: 2px solid var(--primary);
+}
+
+.btn-outline-primary:hover {
   background-color: var(--primary);
   color: white;
 }
